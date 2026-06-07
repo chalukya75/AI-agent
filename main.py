@@ -49,4 +49,4 @@ try:
     structured_response = parser.parse(raw_response.get("output")[0]["text"])
     print(structured_response)
 except Exception as e:
-    print("Error parsing response", e, "Raw Response - ", raw_response)
+    print("Error parsing response", e, "Raw Response - ", raw_response) ,
